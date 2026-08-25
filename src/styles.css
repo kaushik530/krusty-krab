@@ -324,14 +324,13 @@ nav {
 .menu-page > h1 {
     margin: 0 0 5px;
 
-    color: #fcdd6d;
-
+       color: #8E2525; 
     font-size: clamp(30px, 5vw, 42px);
     font-weight: 900;
 
     text-align: center;
 
-    text-shadow: 3px 3px 0 #681717;
+    text-shadow: 3px 3px 0 #F4D35E;
 }
 
 
