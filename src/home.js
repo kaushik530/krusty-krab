@@ -1,4 +1,3 @@
-import KrustyKrabLogo from "./assets/krusty-krab-logo.png";
 
 const section = document.createElement("section");
 
@@ -9,7 +8,7 @@ wrap.classList.add("wrapper");
 
 const img = document.createElement("img");
 
-img.src = KrustyKrabLogo;
+img.src = "https://i.pinimg.com/736x/f2/70/7d/f2707dfca043a3329f2384252401a899.jpg";
 img.alt = "Krusty Krab logo";
 
 const content = document.createElement("div");
