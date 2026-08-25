@@ -1,0 +1,29 @@
+{
+  "name": "krusty-krab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushik530/krusty-krab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kaushik530/krusty-krab/issues"
+  },
+  "homepage": "https://github.com/kaushik530/krusty-krab#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.109.2",
+    "webpack-cli": "^7.2.2",
+    "webpack-dev-server": "^6.0.0",
+    "html-webpack-plugin": "^5.6.8"
+  }
+}
