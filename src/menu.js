@@ -59,11 +59,12 @@ const items = [
         image: "https://static.wikia.nocookie.net/spongebob/images/4/45/Patrick%27s_Staycation_009.png/revision/latest/scale-to-width-down/95?cb=20220212172110"
     }
 ];
+
+
 items.forEach(item => {
 
     const menuItem = document.createElement("div");
     menuItem.classList.add("menu-item");
-
 
 
     const img = document.createElement("img");
@@ -77,8 +78,10 @@ items.forEach(item => {
     const details = document.createElement("div");
     details.classList.add("menu-details");
 
+
     const name = document.createElement("h2");
     name.textContent = item.name;
+
 
     const description = document.createElement("p");
     description.textContent = item.description;
@@ -88,14 +91,25 @@ items.forEach(item => {
     price.classList.add("menu-price");
     price.textContent = item.price;
 
+
     details.appendChild(name);
     details.appendChild(description);
     details.appendChild(price);
 
+
     menuItem.appendChild(img);
     menuItem.appendChild(details);
 
+
     menuList.appendChild(menuItem);
 });
+
+
+/* Add everything to the section */
+
+section.appendChild(h1);
+section.appendChild(p);
+section.appendChild(menuList);
+
 
 export default section;
