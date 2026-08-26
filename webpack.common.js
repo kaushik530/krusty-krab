@@ -4,7 +4,6 @@ import test from "node:test";
 import { watchFile } from "node:fs";
 
 export default{
-    mode:"development",
     entry: "./src/index.js",
 
     output: {
@@ -18,11 +17,6 @@ export default{
         }),
     ],
 
-    devtool: "eval-source-map",
-
-    devServer : {
-        watchFiles: ["./src/template.html"],
-    },
 
     module: {
     
