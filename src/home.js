@@ -1,4 +1,4 @@
-import KrustyKrabLogo from "./assets/krusty-krab-logo.jpeg";
+import KrustyKrabLogo from "./assets/krusty-krab-logo.png";
 
 const section = document.createElement("section");
 
